@@ -1,0 +1,8 @@
+/* copy this to config.json AND REMOVE THIS COMMENT */
+{
+    "DEBUG"         : false,
+    "CLIENT_ID"     : "XXXX",
+    "CLIENT_SECRET" : "XXXX",
+    "API_BASE_URL"  : "https://gimmebar.com/api/v1/",
+    "SITE_BASE_URL" : "https://gimmebar.com/"
+}

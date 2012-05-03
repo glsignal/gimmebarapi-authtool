@@ -1,2 +1,0 @@
-gimmebarapi-authtool
-====================
