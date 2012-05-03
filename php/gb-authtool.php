@@ -39,7 +39,7 @@ $rtok = $resp['body'];
 
 if ($resp['status'] !== 200) {
 	echo "Error(s) getting token. Response follows:\n";
-	var_dump($resp);
+	print_r($resp);
 	die();
 }
 
@@ -78,7 +78,7 @@ $resp = $resty->post('auth/token/authorization', array(
 
 if ($resp['status'] !== 200) {
 	echo "Error(s) getting authorization. Response follows:\n";
-	var_dump($resp);
+	print_r($resp);
 	die();
 }
 
@@ -95,7 +95,7 @@ $resp = $resty->post('auth/token/access', array(
 
 if ($resp['status'] !== 200) {
 	echo "Error(s) getting authorization. Response follows:\n";
-	var_dump($resp);
+	print_r($resp);
 	die();
 }
 
