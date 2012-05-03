@@ -60,7 +60,7 @@ echo "Hit ENTER to open URL in browser and authenticate on Gimme Bar site. When 
 $input = fgets(STDIN); // waits for ENTER
 
 // try to open the URL in a browser from the shell
-echo "Trying to open '{$auth_url}'...\n";
+echo "Trying to open <{$auth_url}> ...\nIf this doesn't work, visit the URL manually in a GUI web browser...\n";
 shell_exec("open ".escapeshellarg($auth_url));
 
 // tell the user to come back here when he/she is done
