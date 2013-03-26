@@ -1,0 +1,5 @@
+debug:          false
+client_id:      "XXXX"
+client_secret:  "XXXX"
+api_base_url:   "https://gimmebar.com/api/v1/"
+site_base_url:  "https://gimmebar.com/"
