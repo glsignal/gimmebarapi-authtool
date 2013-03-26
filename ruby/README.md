@@ -10,7 +10,7 @@ Simple script demonstrating the authentication dance for Gimme Bar's API v1
 4. Install the required gems (`$ bundle`)
 5. Copy the file config.yml.example to config.yml (in the same directory)
 6. Enter the application's client id and secret into the config.yml file, and save the file
-7. Run ./gb-authtool.rb from the command line (same directory)
+7. Run `ruby gb-authtool.rb` from the command line (same directory)
 8. Follow on-screen instructions
 9. View the source code to see how it works
 
